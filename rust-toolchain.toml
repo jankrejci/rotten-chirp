@@ -1,0 +1,5 @@
+[toolchain]
+channel = "nightly-2024-11-04"
+components = [ "rust-src", "rustfmt", "llvm-tools" , "rust-analyzer"]
+targets = ["riscv32imc-unknown-none-elf"]
+
